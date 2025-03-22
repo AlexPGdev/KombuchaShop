@@ -59,7 +59,7 @@ public class Main {
                             buyKombucha(kombuchas, budget, inventory, initialBudget);
                         } else {
                             // Decline buy, print budget, run method again
-                            System.out.println("You don't have enough money.");
+                            System.out.println("You don't have enough money");
                             System.out.println("Remaining budget: " + budget);
                             buyKombucha(kombuchas, budget, inventory, initialBudget);
                         }
